@@ -4,7 +4,7 @@
 
 h1 {
     font-family: 'amaticbold', serif;
-    color: #df80ff;
+    color: #ffff1a;
     font-size: 50px;
 }
 
@@ -15,10 +15,8 @@ h2 {
 }
 
 body {
-    background: url('/assets/nola.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background: url('/assets/nawlins_pattern.jpg');
+    
     /* Verdana-based sans serif stack */
     font-family: 'caviar_dreamsregular';
 }
@@ -29,16 +27,16 @@ p {
 
 .box {
     background-color: rgba(0,0,0,0.5);
-    padding: 20px;
+    padding: 25px;
     width: 400px;
-    margin: 100px auto;
+    margin: 15px auto;
     text-align: center;
 }
 
 .logo h2 {
     font-size: 36px;
     font-weight: bold;
-    color: #df80ff; 
+    color: #ffff1a; 
 }
 
 .slogan, {
@@ -46,6 +44,16 @@ p {
     font-size: 16px;
     padding-top: 20px;
     color: #ffff1a;
+}
+
+.slogan a {
+    color: #df80ff;
+    text-decoration: none;
+}
+
+.slogan a:hover {
+    text-decoration: none;
+    color: #00e600;
 }
 
 .navbar.navbar-inverse {
@@ -68,4 +76,13 @@ p {
 .container a:hover {
     color: #00e600;
     text-decoration: none;
+}
+
+.btn-group {
+    padding: 15px;
+    float: right;
+}
+
+navbar-right {
+    margin-right: 50px;
 }
