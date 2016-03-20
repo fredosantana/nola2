@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class AttractionsTest < ActiveSupport::TestCase
+class HotspotsTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

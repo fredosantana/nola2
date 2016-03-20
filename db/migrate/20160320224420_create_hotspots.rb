@@ -1,0 +1,11 @@
+class CreateHotspots < ActiveRecord::Migration
+  def change
+    create_table :hotspots do |t|
+        t.string :name
+        t.text :description
+        t.string :address
+        
+        t.timestamps
+    end
+  end
+end
