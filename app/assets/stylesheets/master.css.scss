@@ -1,0 +1,71 @@
+.clear {
+    clear:both;
+}
+
+h1 {
+    font-family: 'amaticbold', serif;
+    color: #df80ff;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'amaticbold', serif;
+    color: #00e600;
+    font-size: 30px;
+}
+
+body {
+    background: url('/assets/nola.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* Verdana-based sans serif stack */
+    font-family: 'caviar_dreamsregular';
+}
+
+p {
+    color: #ffff1a;
+}
+
+.box {
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.logo h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #df80ff; 
+}
+
+.slogan, {
+    font-family: 'caviar_dreamsbold', 'Verdana', sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    color: #ffff1a;
+}
+
+.navbar.navbar-inverse {
+    border: none;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 0;
+    box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.container {
+    color: #ffff1a;
+    font-family: 'caviar_dreamsitalic', 'Verdana', sans-serif;
+}
+
+.container a {
+    color: #df80ff;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #00e600;
+    text-decoration: none;
+}

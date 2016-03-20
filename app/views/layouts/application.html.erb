@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nola</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    
+    <nav class="navbar navbar-inverse" role="navigation">
+    <header>
+        <div class="col-xs-3 logo"> 
+            <h2>NOLA</h2>
+        </div>
+        <div class="col-xs-4 slogan">
+            Your source for all things New Orleans!
+        </div>
+    </header>
+    </nav>
+    <br class="clear" />
+    
+    <div class="container">
+<%= yield %>
+    </div>
+    
+    <div class="footer">
+    <div class="container">
+      <div class="col-xs-6">
+        Sounds like fun! <a target="_blank" href="http://www.neworleansonline.com">Tell me more!</a>
+      </div>
+      <div class="col-xs-6">
+        Proudly hacked in Randolph, MA by <a target="_blank" href="https://www.facebook.com/wil.santana">Wil Santana</a><br />
+        Want to learn how to build a web application like this? <a target="_blank" href="http://thefirehoseproject.com">Here's how!</a>
+      </div>
+    </div>
+  </div>
+    
+</body>
+</html>
