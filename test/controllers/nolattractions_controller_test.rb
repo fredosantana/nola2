@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class HotspotsTest < ActiveSupport::TestCase
+class NolattractionsControllerTest < ActionController::TestCase
   # test "the truth" do
   #   assert true
   # end

@@ -1,0 +1,3 @@
+class NolattractionsController < ApplicationController
+      
+end
